@@ -1,0 +1,19 @@
+{
+  "name": "hack_gas_notificator",
+  "version": "1.0.0",
+  "description": "Script to notificate when ethereum gas price reach a point.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web3"
+  ],
+  "author": "German Lugo",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.1",
+    "dotenv": "^16.0.0",
+    "twilio": "^3.75.0"
+  }
+}
